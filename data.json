@@ -1,0 +1,51 @@
+{
+  "1":{
+    "text" : "Hello Adventure, would you like to go to the Door or the Table?",
+    "options" : {
+      "1" : {
+        "text" : "go to the door",
+        "direction" : "2"
+      },
+      "2" : {
+        "text" : "go to the table",
+        "direction" : "3"
+      }
+    }
+  },
+  "2":{
+    "text" : "You are at a door, its a lovely door...",
+    "options" : {
+      "1" : {
+        "text" : "open the door?",
+        "direction" : "4"
+      },
+      "2" : {
+        "text" : "Go to the table",
+        "direction" : "3"
+      }
+    }
+  },
+  "3":{
+    "text" : "You are at a table, great",
+    "options" : {
+      "1" : {
+        "text" : "start again",
+        "direction" : "1"
+      }
+    }
+  },
+  "4":{
+    "text" : "You have opened the door, there is big tree in the hall, its quite strange",
+    "options" : {
+      "1" : {
+        "text" : "climb the tree",
+        "direction" : "5"
+      },
+      "2" : {
+        "text" : "burn the tree to the ground!",
+        "direction" : "6"
+      }
+    }
+  }
+
+}
